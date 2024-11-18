@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "MedievalSharp", cursive;
   background-image: url(./assets/16.jpg);
@@ -10,23 +11,25 @@ body {
   background-position: center;
   position: relative;
   height: 100vh;
-  
+
 }
+
 .titlee {
   color: rgb(231, 199, 17);
   font-size: 4em;
   text-align: center;
   padding: 2vw;
 }
+
 .stack-cards {
   position: absolute;
-  z-index:3;
-  
+  z-index: 3;
+
   width: 100%;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  
+  justify-content: center;
+  align-items: center;
+
 }
 
 .stack-cards img {
@@ -37,61 +40,68 @@ body {
   cursor: pointer;
   transition: transform .3s ease;
 }
+
 .stack-cards img:hover {
   transform: scale(1.5);
 
 }
-.scale-up {
-  transform: scale(2); /* Increase size on reveal */
-}
-.num-container {
- 
-display: flex;
-flex-direction: column;
 
-  margin-top: 30vh;
-  
- align-items: center;
+.scale-up {
+  transform: scale(3);
+  /* Increase size on reveal */
 }
-.num-container p, .num-container h2,.num-container button,.num-container h3  {
-   position: absolute;
+
+.num-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
+  align-items: center;
+}
+
+.num-container p,
+.num-container h2,
+.num-container button,
+.num-container h3 {
+  position: absolute;
 }
 
 .num-container h2 {
-  color:rgb(231, 199, 17) ;
+  color: rgb(231, 199, 17);
   margin-top: 1vh;
-  }
+}
 
-  .num-container p {
-font-size: 5em;
-    margin-top: 8vh;
-    color:#8B0000  ;
-    font-weight:bolder;
-  }
+.num-container p {
+  font-size: 5em;
+  margin-top: 8vh;
+  color: #8B0000;
+  font-weight: bolder;
+}
 
-  .num-container h3 {
-    color:rgb(231, 199, 17) ;
-    margin-top: 20vh;
-  }
+.num-container h3 {
+  color: rgb(231, 199, 17);
+  margin-top: 20vh;
+}
 
-  .zodarname {
+.zodarname {
 
-font-size: 25px;
-color: aquamarine;
+  font-size: 25px;
+  color: aquamarine;
 
-  }
+}
+
 .num-container img {
-  
+
   height: 40vh;
   width: 70%;
   opacity: 0.8;
   border-radius: 10px;
- 
-  
+
+
 }
+
 .num-container_btn1 {
-margin-top: 25vh;
-  color: rgb(231, 199, 17)      ;
+  margin-top: 25vh;
+  color: rgb(231, 199, 17);
   background-color: black;
   border: none;
   padding: 1em;
@@ -102,7 +112,7 @@ margin-top: 25vh;
 
 .num-container_btn2 {
   margin-top: 35vh;
-  color: rgb(4, 77, 64)      ;
+  color: rgb(4, 77, 64);
   background-color: black;
   border: none;
   padding: 0.5em;
